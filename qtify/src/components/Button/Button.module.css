@@ -7,11 +7,12 @@
     left: 1238px;
     padding: 10px 16px 10px 16px;
     gap: 10px;
-    border-radius: 12px 0px 0px 0px;
+    border-radius: 12px;
     border: 1px 0px 0px 0px;
     opacity: 0px;
     background: #121212;
     font-family: 'Poppins', sans-serif;
     border: 1px solid #34C94B;
     color: #34C94B;
+    cursor: pointer;
 }
