@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import { BrowserRouter } from "react-router-dom";
 import Hero from "./components/Hero/Hero";
+import Section from "./components/Section/Section";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div className="App">
         <Navbar />
         <Hero />
+        <Section />
       </div>
     </BrowserRouter>
   );

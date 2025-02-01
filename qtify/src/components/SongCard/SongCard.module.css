@@ -1,0 +1,24 @@
+.songCard {
+    width: 159px;
+    gap: 0px;
+    border-radius: 10px;
+}
+
+.chip {
+    width: Hug (71px)px;
+    height: Hug (23px)px;
+    top: 176px;
+    left: 6px;
+    padding: 4px 8px 4px 8px;
+    gap: 1px;
+    background-color: black !important;
+    color: white !important;
+}
+
+.card{
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    text-align: start;
+}
