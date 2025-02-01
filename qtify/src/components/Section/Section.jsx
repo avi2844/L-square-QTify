@@ -30,7 +30,7 @@ function Section(){
 
     useEffect(()=>{
         fetchSongs();
-    })
+    }, []);
 
     return (
       <div style={{ padding: "10px" }}>
