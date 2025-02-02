@@ -9,7 +9,7 @@ import CardActionArea from '@mui/material/CardActionArea';
 import CardActions from '@mui/material/CardActions';
 import Chip from '@mui/material/Chip';
 
-function SongCard({img, followers, desc}){
+function SongCard({img, followers, desc, type}){
     return (
       <div className={styles.card}>
         <Card className={styles.songCard}>
@@ -22,7 +22,7 @@ function SongCard({img, followers, desc}){
             />
           </CardActionArea>
           <CardActions>
-            <Chip className={styles.chip} label={`${followers} followers`} color="black" />
+            <Chip className={styles.chip} label={(type === "songs") ? `${followers} Likes` : `${followers} Follows`} color="black" />
           </CardActions>
         </Card>
         <Typography color="#FFFFFF">{desc}</Typography>
