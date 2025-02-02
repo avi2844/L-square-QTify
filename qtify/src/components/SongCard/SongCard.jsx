@@ -25,7 +25,7 @@ function SongCard({img, followers, desc}){
             <Chip className={styles.chip} label={`${followers} followers`} color="black" />
           </CardActions>
         </Card>
-        <Typography>{desc}</Typography>
+        <Typography color="#FFFFFF">{desc}</Typography>
       </div>
     );
 }
